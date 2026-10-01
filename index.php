@@ -25,19 +25,3 @@
     </div>
 </body>
 </html>
-
-<?php
-
-//$name = "Sajomi";
-//echo "<h1>Hello, {$name}!</h1>";
-
-$x = intval(NULL);
-$y = intval(NULL);
-$sum = $x + $y;
-$diff = $x - $y;
-$product = $x * $y;
-$quotient = $y != 0 ? $x / $y : "nuh uh :3"; 
-
-//include 'form.php'; <-- only use include if on the same webpage
-
-?>
