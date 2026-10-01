@@ -9,8 +9,8 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
                 <form action="form.php" method="post">
                     <h1>Verify your Jomi-ness</h1>
                     <label>Name:</label><br>
@@ -20,7 +20,7 @@
                     <input type="submit" value="Log In">
                 </form>
             </div>
-            <div class="col-md-4"></div>
+            <div class="col-md-3"></div>
         </div>
     </div>
 </body>
