@@ -7,14 +7,29 @@
     <title>Practice</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <form action="form.php" method="post">
+                    <h1>Verify your Jomi-ness</h1>
+                    <label>Name:</label><br>
+                    <input type="text" name="name"><br>
+                    <label>Password:</label><br>
+                    <input type="password" name="password"><br><br>
+                    <input type="submit" value="Log In">
+                </form>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
 </body>
 </html>
 
 <?php
 
-$name = "Sajomi";
-echo "<h1>Hello, {$name}!</h1>";
+//$name = "Sajomi";
+//echo "<h1>Hello, {$name}!</h1>";
 
 $x = intval(NULL);
 $y = intval(NULL);
@@ -23,6 +38,6 @@ $diff = $x - $y;
 $product = $x * $y;
 $quotient = $y != 0 ? $x / $y : "nuh uh :3"; 
 
-include 'form.php';
+//include 'form.php'; <-- only use include if on the same webpage
 
 ?>
